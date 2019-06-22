@@ -1,9 +1,9 @@
 import csv
-import datetime
 
 
 
-inputFile = '/Users/adi/Downloads/all-games.csv'
+
+inputFile = 'all-games.csv'
 outputFile = '2019-spring-ar-fees.csv'
 gameCountFile = 'ar-game-count.csv'
 with open(outputFile, mode='w') as ar_fees:
